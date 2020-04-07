@@ -3,7 +3,8 @@ package io.bhuwan;
 public class IntegerToRoman {
 
 	public static void main(String[] args) {
-		System.out.println(integertoRoman(3557));
+		System.out.println("int 3257 in roman--"+ integertoRoman(3557));
+		System.out.println("int 6547 in roman--"+ integertoRoman(6547));
 
 	}
 	
@@ -24,13 +25,9 @@ public class IntegerToRoman {
 				sb.append(tens[i/10]);
 				i=i%10;			
 				sb.append(ones[i/1]);
-			
+				return sb.toString();
 		} else {
-			System.out.println("Out of range of roman");			
+			return "Out of range of roman";			
 		}
-		
-		return sb.toString();
-		
 	}
-
 }
