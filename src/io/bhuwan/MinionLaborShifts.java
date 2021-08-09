@@ -7,7 +7,7 @@ public class MinionLaborShifts {
 
 	public static void main(String[] args) {
 		int [] arr = {1,3,5,3};
-		for(int i:solution(arr, 1)) {
+		for(int i:solution(arr, 0)) {
 		System.out.println(i);
 		}
 
