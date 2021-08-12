@@ -1,4 +1,4 @@
-package anuj.bhaiya;
+package bitwise.anuj.bhaiya;
 
 // Find nth bit
 public class FindNthbit {

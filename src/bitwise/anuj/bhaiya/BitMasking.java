@@ -1,4 +1,4 @@
-package anuj.bhaiya;
+package bitwise.anuj.bhaiya;
 
 //Mask a bit
 public class BitMasking {

@@ -1,4 +1,4 @@
-package anuj.bhaiya;
+package bitwise.anuj.bhaiya;
 
 public class SwapNumbers {
 
