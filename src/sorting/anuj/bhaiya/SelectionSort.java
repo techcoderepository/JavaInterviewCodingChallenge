@@ -24,7 +24,7 @@ public class SelectionSort {
 				}
 			}
 		
-			j=i-1;
+			j=i-2;
 			int minElement=inputArray[minElementIndex];
 			for( ;  j >=0 && inputArray[j] > minElement; ) {
 				// swap
