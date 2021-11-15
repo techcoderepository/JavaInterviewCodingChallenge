@@ -7,13 +7,13 @@ public class SelectionSort {
 		for(int element:inputArray)
 			System.out.print(element + ", ");
 		System.out.println( "---------- ");
-		selectionSortBhuwan(inputArray);
+		selectionSort(inputArray);
 		for(int element:inputArray)
 			System.out.print(element + ", ");
 		
 	}
 	
-	static void selectionSortBhuwan(int [] inputArray) {
+	static void selectionSort(int [] inputArray) {
 		for(int i=1 ; i< inputArray.length; i++) {
 			int minElementIndex =i;
 			int j=i;

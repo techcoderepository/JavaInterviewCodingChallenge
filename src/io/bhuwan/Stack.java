@@ -22,7 +22,7 @@ public class Stack<T> {
 		virusList.add("AIDS");
 		virusList.add("RSV");
 
-		List<Integer> countList = new ArrayList();
+		List<Integer> countList = new ArrayList<>();
 		countList.add(100);
 		countList.add(200);
 		countList.add(300);
